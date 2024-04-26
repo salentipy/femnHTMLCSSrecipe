@@ -1,0 +1,136 @@
+/* mobile 375px - desktop 1440px */
+:root {
+    /* COLOR VARIABLES */
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkraspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rosewhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightgrey: hsl(30, 18%, 87%);
+    --wengebrown: hsl(30, 10%, 34%);
+    --darkcharcoal: hsl(24, 5%, 18%);
+    /* FONT VARIABLES */
+    --base-size: 1rem;
+    --scale: 1.25;
+    --h5: calc(var(--base-size) * var(--scale));
+    --h4: calc(var(--h5) * var(--scale));
+    --h3: calc(var(--h4) * var(--scale));
+    --h2: calc(var(--h3) * var(--scale));
+    --h1: calc(var(--h2) * var(--scale));
+    --sans-serif: "Outfit", sans-serif;
+    --serif: "Young Serif", serif;}
+  
+  body {
+    background-color: var(--eggshell);
+    font-family: var(--sans-serif);
+    margin: 0 auro;
+  }
+  img {
+    width: 100%;
+  }
+  h1 {
+    font-family: var(--serif);
+  }
+  h2 {
+    color: var(--nutmeg);
+    font-family: var(--serif);
+  }
+  li {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+  }
+  .nutrition td {
+    padding-left: 2rem;
+  }
+  .nutrition td:nth-child(even) {
+    color: var(--nutmeg);
+    font-weight: bold;
+  }
+  .nutrition table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  .nutrition table tr {
+    border-bottom: 1px solid var(--lightgrey);
+  }
+  .bold {
+    font-weight: bold; 
+  }
+  .wrapper {
+    background-color: var(--white);
+    max-width: 375px;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .prep {
+    background-color: var(--rosewhite);
+    padding: 0.25rem 1rem;
+  }
+  .prep h2 {
+    font-family: var(--sans-serif);
+  }
+  
+  @media (min-width: 700px) {
+    .wrapper {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  
+  
+  /* COLOR BOXES
+  .colors {
+    display: flex;g
+    flex-flow: row wrap;
+    gap: 1rem;
+  }
+  .colors > * {
+    border: 1px solid black;
+  }
+  .nutmeg {
+    background-color: var(--nutmeg);
+    width: 2rem;
+    height: 2rem;
+  }
+  .darkraspberry {
+    background-color: var(--darkraspberry);
+    width: 2rem;
+    height: 2rem;
+  }
+  .white {
+    background-color: var(--white);
+    width: 2rem;
+    height: 2rem;
+  }
+  .rosewhite {
+    background-color: var(--rosewhite);
+    width: 2rem;
+    height: 2rem;
+  }
+  .eggshell {
+    background-color: var(--eggshell);
+    width: 2rem;
+    height: 2rem;
+  }
+  .lightgrey {
+    background-color: var(--lightgrey);
+    width: 2rem;
+    height: 2rem;
+  }
+  .wengebrown {
+    background-color: var(--wengebrown);
+    width: 2rem;
+    height: 2rem;
+  }
+  .darkcharcoal {
+    background-color: var(--darkcharcoal);
+    width: 2rem;
+    height: 2rem;
+  }
+  END COLOR BOXES */
