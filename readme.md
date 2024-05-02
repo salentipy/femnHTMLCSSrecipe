@@ -1,0 +1,1 @@
+This was the first design challenge I attempted on Frontend Mentor. I had not yet understood just how important "pixel perfect" (or as near it as possible). I received that feedback a couple more challenge items down the line!
